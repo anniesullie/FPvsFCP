@@ -17,8 +17,6 @@ This site shows divs with animating background colors and sizes as a loading bar
 
 The Bing site has a searchbox, a logo, and a background image. Firefox and Chrome render the search box first, while WebKit paints after the image and background gradient CSS are loaded.
 
-There is an open issue to [consider taking form controls into account for first contentful paint](https://github.com/w3c/paint-timing/issues/52), which would change the First Contentful Paint timings for Bing in Gecko and Blink.
-
 | Browser | First Paint | First Contentful Paint | Additional Paint | Fully Loaded |
 | ------- | ----------- | ---------------------- | ---------------- | ------------ |
 | [Firefox](https://webpagetest.org/video/compare.php?tests=200304_N8_9e8622e847c7c64d6680e799b3d2ec89-r:1-c:0) | ![](bing_gecko_fp.jpg) | ![](bing_gecko_fcp.jpg) | ![](bing_gecko_loaded.jpg)
