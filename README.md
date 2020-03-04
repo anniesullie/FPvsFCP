@@ -17,8 +17,8 @@ This site shows divs with animating background colors and sizes as a loading bar
 
 The Bing site has a searchbox, a logo, and a background image. Firefox and Chrome render the search box first, while WebKit paints after the image and background gradient CSS are loaded.
 
-| Browser | First Paint | First Contentful Paint | Additional Paint | Fully Loaded |
-| ------- | ----------- | ---------------------- | ---------------- | ------------ |
+| Browser | First Paint | First Contentful Paint | Fully Loaded |
+| ------- | ----------- | ---------------------- | ------------ |
 | [Firefox](https://webpagetest.org/video/compare.php?tests=200304_N8_9e8622e847c7c64d6680e799b3d2ec89-r:1-c:0) | ![](bing_gecko_fp.jpg) | ![](bing_gecko_fcp.jpg) | ![](bing_gecko_loaded.jpg)
 | [Chrome](https://webpagetest.org/video/compare.php?tests=200304_TB_20acead7a8ddbb8dae82728dcfcb639a-r:3-c:0) | ![](bing_blink_fp.jpg) | ![](bing_blink_fcp.jpg) | ![](bing_blink_loaded.jpg)
 | [Safari](https://webpagetest.org/video/compare.php?tests=200304_Q4_2739057c4482239d2888364f9545338c-r:1-c:0) | ![](bing_width_placeholder.jpg) | ![](bing_webkit_fcp.jpg) | ![](bing_webkit_loaded.jpg)
@@ -37,8 +37,8 @@ Youtube puts up placeholder images before the main content displays. WebKit's pa
 
 Turbotax has a loading spinner with no text or images. Safari does not show the spinner; Chrome and Firefox do.
 
-| Browser | First Paint | First Contentful Paint | Additional Paint | Fully Loaded |
-| ------- | ----------- | ---------------------- | ---------------- | ------------ |
+| Browser | First Paint | First Contentful Paint | Fully Loaded |
+| ------- | ----------- | ---------------------- | ------------ |
 | [Firefox](https://webpagetest.org/video/compare.php?tests=200304_ZM_736347ffc03de991c029189f5404affc-r:1-c:0) | ![](turbotax_gecko_fp.jpg) | ![](turbotax_gecko_fcp.jpg) | ![](turbotax_gecko_loaded.jpg)
 | [Chrome](https://webpagetest.org/video/compare.php?tests=200304_6S_2e7a067b9116ca73f2400204853a4d5b-r:1-c:0) | ![](turbotax_blink_fp.jpg) | ![](turbotax_blink_fcp.jpg) | ![](turbotax_blink_loaded.jpg)
 | [Safari](https://webpagetest.org/video/compare.php?tests=200304_XC_a1c22eda813311006493df274515f76b-r:1-c:0) |  | ![](turbotax_webkit_fcp.jpg) | ![](turbotax_webkit_loaded.jpg)
